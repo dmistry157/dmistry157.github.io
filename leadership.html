@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      
+      body {
+        background-color: #1b1b1b;
+        color: #f5f5f5;
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+      }
+
+      /* Navbar */
+      .navbar {
+          background-color: #121212;
+          border-bottom: 2px solid #ff804e;
+      }
+
+      .navbar .navbar-brand {
+          color: #ff804e;
+          font-size: 1.5rem;
+          font-weight: bold;
+      }
+
+      .navbar-nav .nav-link {
+          color: #f5f5f5;
+          font-size: 1.2rem;
+      }
+
+      .navbar-nav .nav-link:hover {
+          color: #ff804e;
+      }
+
+      .navbar-icons {
+          display: flex;
+          gap: 15px;
+      }
+
+      .nav-icon {
+          color: #ff804e;
+          font-size: 1.5rem;
+      }
+
+      .nav-icon:hover {
+          color: #f8c102;
+      }
+      .section-divider {
+        border-top: 5px solid #ff804e;
+        margin: 0;
+      }
+      .bottom-section {
+        background-color: #f5f5f5;
+        color: #1b1b1b;
+        padding: 50px 0;
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/DmLogo.png" alt="Logo" height="60">
+        </a>
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item me-4">
+            </li>
+              <li class="nav-item me-4">
+                  <a class="nav-link" href="leadership.html">Leadership/Service Projects</a>
+              </li>
+              <li class="nav-item me-4">
+              <a class="nav-link" href="coding.html">Coding Projects</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="music.html">Music</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+              <div class="container">
+                  <a href="https://www.linkedin.com/in/dhilen-mistry/" class="me-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                  </svg>
+                  </a>
+              </div>
+              <div class="container">
+              <a href="https://mailto:dhilenmistry@gmail.com">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                  </svg>
+              </a>
+              </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  
+
+      <main role="main">
+        
+        <section class="jumbotron text-center">
+            
+          <div class="container" style="padding-top:150px;padding-bottom:150px;">
+            <h1 class="jumbotron-heading">Leadership and Service Projects</h1>
+            <p class="lead">Reflection over the last few years</p>
+          </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        
+        <div class="album py-5 bottom-section">
+          <div class="container">
+            <div class="row gy-4">
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow" >
+                <img class="card-img-top img-fluid" alt="Access Books" style="height: 225px; object-fit: contain" src="images/AccessBooks.png" data-holder-rendered="true">            
+                <div class="card-body">
+                    <h3>Access Books Fundraiser</h3>
+                    <p class="card-text">Ran a Fundraiser & Book Drive, raising $14000 and 1500 books for Dolores Huerta Elementary, an underserved school in LA.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#AccessBooks">
+                          View
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top img-fluid" alt="Varsity Tennis" style="height: 225px; object-fit: contain" src="images/tennisTeam.png" data-holder-rendered="true">
+                  <div class="card-body">
+                    <h3>Varsity Tennis Captain</h3>
+                    <p class="card-text">In my senior year I led the Varsity tennis team at my high school, nominated by the varsity team members.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#TennisCaptain">
+                          View
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top img-fluid" alt="Teaching math" style="height: 225px; object-fit: contain" src="images/CVUSD.png" data-holder-rendered="true">
+                  <div class="card-body">
+                    <h3>Math Help Tutoring</h3>
+                    <p class="card-text">From grades 9-12, I spent over 200 hours tutoring math at my High School and at a local middle school, Colina.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#MathHelp">
+                          View
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top img-fluid" alt="Assisteens" style="height: 225px; object-fit: contain" src="images/assisteens.png" data-holder-rendered="true">
+                  <div class="card-body">
+                    <h3>Assistance League of Conejo Valley: Assisteens</h3>
+                    <p class="card-text"> Assisteens leads events and partners with local nonprofit organizations to make Conejo Valley more equitable.  
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Assisteens">
+                          View
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top img-fluid" alt="Archana Team" style="height: 225px; object-fit: contain" src="images/ArchanaTeam.png" data-holder-rendered="true">
+                  <div class="card-body">
+                    <h3>Archana Bollywood Dance</h3>
+                    <p class="card-text">For 3 years, I danced on the Archana Teen Bollywod Dance team to raise money for the India Friends Association. </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Archana">
+                          View
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+  
+            </div>
+          </div>
+        </div>
+
+
+
+        
+  
+      </main>
+
+      <div class="modal fade" id="AccessBooks" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-custom-size">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Access Books Fundraiser</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <!-- Left Column: Image -->
+                <div class="col-12 col-md-6">
+                  <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/C6wVzZwL6Sq/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/C6wVzZwL6Sq/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/C6wVzZwL6Sq/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Access Books (@accessbooksca)</a></p></div></blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+                </div>
+                <!-- Right Column: Text -->
+                <div class="col-12 col-md-6">
+                  <p> 
+                    Fundraiser: Raised $14000 for Dolores Huerta Elementary School, in an underserved community in South Los Angeles. These funds were put towards buying a new set of books, amounting to over 1300 hardcovers of high interest to the students. Reading at a young age is one of the largest determiners of one's literacy later in life.  I raised these funds by applying for city grants and spreading the word around my community, such as giving talks at school, at different community service organizations I was a part of, and going door-to-door posting flyers in small businesses.
+                  </p>
+                    <p>
+                    Book Drive: Raised 1500+ new and gently used books for grades K-5. Some were sorted and labelled for teachers to keep in their classrooms and for kids to take home. These came from local elemntary schools in Thousand Oaks, publishing companies, and mostly from individual donors. 
+                  </p>
+                  <p>
+                    Event: On May 4th, 2024, a group of 50 volunteers came to sort, label, and catalogue over 2800 books for Dolores Huerta Elementary's new library. Prior to the event, we weeded out old, outdated books, some of which were rotting. Through the services of this event, the fundraiser, book drive, and prior work(ordering the books, weeding out old books, and organizing the library, which I had extensive help from the Access Books team), we saved the school roughly $80,000 covering materials, labor, taxes, and shipping.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="TennisCaptain" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-custom-size">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Varsity Tennis Captain</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <!-- Left Column: Image -->
+                <div class="col-12 col-md-8">
+                  <img src="images/teachingTennis.png" class="img-fluid" alt="Project Image">
+                </div>
+                <!-- Right Column: Text -->
+                <div class="col-12 col-md-4">
+                  <p>In my senior year I am leading the Varsity tennis team at my high school, nominated by the varsity team members. </p>
+                  <p>I was placed on varsity my sophomore year, and I have helped teach incoming JV teammates, design new uniforms, and lead at practices and matches.</p>
+                  <p>I aim to keep my team motivated, and I am usually the loudest cheerer on and off the court. I even got the best sportsmanship award on the team for this in 2024. </p>
+                  <p>I play No. 1 doubles, last year ranking 5th in the Maramonte League. </p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="MathHelp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-custom-size">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Math Help Tutoring</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <!-- Left Column: Image -->
+                <div class="col-12 col-md-8">
+                  <img src="images/CVUSD.png" class="img-fluid" alt="Project Image">
+                </div>
+                <!-- Right Column: Text -->
+                <div class="col-12 col-md-4">
+                  <p>At Westlake HS, I teach through Math Help, a free environment for math tutoring across all math classes at lunch. At colina I teach through SMART tutoring, an after-school program for students that are struggling with their grades or the content they are learning.</p>
+                  <p>Over the last 4 years I have spent roughly 200 hours tutoring math across multiple subjects, different ages, and at different experience levels.  </p>
+                    <p>I know how to explain the same thing in multiple ways, which allows me to teach many types of students as everyone learns differently. I aim to connect with students to help them with their academic goals, not just their assignments. </p>
+                    <p>The subjects that I help people with includes 6th-8th grade math, Geometry, Algebra 1, Algebra 2, Pre Calculus, and Calculus.</p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="Assisteens" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-custom-size">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Assisteens</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row gx-0">
+                <!-- Left Column: Image -->
+                <div class="col-12 col-md-7 p-0">
+                  <img src="images/AssisteensDinners.png" class="img-fluid" alt="Project Image">
+                </div>
+                <!-- Right Column: Text -->
+                <div class="col-12 col-md-5 p-0">
+                  <p>I have been part of Assisteens for 3 years now. I helped run the Thrift Shop, make baskets and gift boxes for underprivileged families, support families at Safe Passage, and make lunches and dinners for the homeless through Harbor House. 
+                  </p>
+                  <p> At the meetings and special events, we make gift baskets to be distributed by other community service organizations. </p>
+                  <p>
+                    The thrift shop takes in donations from the community and organizes the goods to resell them for incredibly low prices. I worked at the register at the thrift shop handling transactions and bagging/wrapping. 
+                  </p>
+                  <p>
+                    Safe Passage provides food, supplies, and resources to anyone who needs it in Conejo Valley. I volunteered in the part that distributed food and supplies. We would go to a neighborhood and set up a supply line and people could come through to pick up whatever groceries or supplies that they needed for free. I helped to hand out food to people going through the line and carry food/supplies back to their houses if they were physically unable. </p>
+      	          <p>Harbor House provides free meals to the homeless community. I would make lunches and dinners for Harbor House so that they could give it to people who would otherwise be unable to afford it. </p>
+                  </p>
+                  <p>
+                    In the photo I am making 25 dinners for Harbor House.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="Archana" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-custom-size">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Archana Bollywood Dance</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <!-- Left Column: Image -->
+                <div class="col-12 col-md-8">
+                  <img src="images/ArchanaTeam.png" class="img-fluid" alt="Project Image">
+                </div>
+                <!-- Right Column: Text -->
+                <div class="col-12 col-md-4">
+                  <p>We are a teen-led bollywood dance group. We perform classic bollywood songs and modern pop songs in an innovative mash-up. We also choreograph our own sets. </p>
+                  <p>The India Friends Association supports underprivileged and marginalized communities in India by supporting individual projects establised by grassroots organizations. </p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

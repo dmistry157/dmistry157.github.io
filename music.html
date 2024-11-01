@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      .jumbotron {
+        padding-top:75px;
+        padding-bottom:75px;
+      }
+      .modal-custom-size {
+        max-width: 80%;
+      }
+      .card {
+        height: 100%;
+      }
+      .card-body {
+        flex: 1 1 auto;
+        height: 100%;
+      }
+      .card-text {
+        height: 80px; /* Limit height of the text to avoid uneven heights */
+        overflow: hidden; /* Hide overflow text */
+      }
+      .card-img-top {
+        object-fit: contain;
+        height: 225px; /* Consistent height for images */
+      }
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      #jumbo1 {
+        text-align: left;
+        background-image: url('images/gradient_dark_theme.jpg');
+        background-repeat: repeat-x;
+        background-size: cover;
+        margin: 0px;
+        color: #fff;
+      }
+      .navbar {
+        background-color: #092a1c;
+      }
+      .navbar-nav .nav-link {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 10px 15px;
+        color: #ccc;
+      }
+      .navbar .bi {
+        width: 30px;
+        height: 30px; /* Increase the size of the icons */
+      }
+      .navbar .nav-link:hover {
+        color: #f8c102; /* Hover color */
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body">
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/DmLogo.png" alt="Logo" height="60">
+        </a>
+        <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item me-4">
+            </li>
+              <li class="nav-item me-4">
+                  <a class="nav-link" href="leadership.html">Leadership/Service Projects</a>
+              </li>
+              <li class="nav-item me-4">
+              <a class="nav-link" href="coding.html">Coding Projects</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="music.html">Music</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+              <div class="container">
+                  <a href="https://www.linkedin.com/in/dhilen-mistry/" class="me-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                  </svg>
+                  </a>
+              </div>
+              <div class="container">
+              <a href="https://mailto:dhilenmistry@gmail.com">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                  </svg>
+              </a>
+              </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+      <main role="main">
+        <img src="images/CarnegieStage.png" class="img-fluid" alt="...">
+        <div class="centered">
+            <h1 class="jumbotron-heading" style="color: aliceblue">Music Projects</h1>
+        </div>
+        
+        <div class="section-divider"></div>
+    </div>
+        <div class="album py-5 bottom-section">
+          <div class="container">
+            <div class="row gy-4">
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow d-flex flex-column">
+                  <img class="card-img-top img-fluid" alt="Carnegie Hall Stage" style="height: 225px; object-fit: contain" src="images/CarnegieStageSmall.png" data-holder-rendered="true">
+                  <div class="card-body d-flex flex-column">
+                    <h3>Carnegie Hall Concerto Debut</h3>
+                    <p class="card-text flex-grow-1">Mozart's Concerto No. 20 with the Amadeo Philharmonic Chamber Orchestra led by conductor Timothy Cho. </p>
+                    <div class="d-flex justify-content-between align-items-center mt-auto">
+                      <div class="btn-group">
+                        <a href="https://www.youtube.com/watch?v=FVCVsLcPTb8">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Carnegie">
+                          View Video
+                        </button>
+                    </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  
+                    <img class="card-img-top img-fluid" alt="BOTB 2024" style="height: 225px; object-fit: contain" src="images/BOTBPiano.png" data-holder-rendered="true">
+                
+                    <div class="card-body d-flex flex-column">
+                    <h3>Battle of the Bands 2024</h3>
+                    <p class="card-text flex-grow-1">I was lead singer, keys, and rhythm guitar. Our band name: The Shrubs. We're a small indie rock band of 4 and we record songs for fun in our free time. </p>
+                    <div class="d-flex justify-content-between align-items-center mt-auto">
+                      <div class="btn-group">
+                        
+                            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#BOTB24">
+                          View
+                        </button> -->
+                    
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top img-fluid" alt="BOTB 2023" style="height: 225px; object-fit: contain" src="images/BOTB23.png" data-holder-rendered="true">
+                  <div class="card-body d-flex flex-column">
+                    <h3>Battle of the Bands 2023</h3>
+                    <p class="card-text flex-grow-1">I was lead singer and on keys. Our band name: Shake Shack Fork. This year we won battle of the bands and recorded an original track at the Sound Palace Studio. </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://www.youtube.com/shorts/HqVc6qnJCyE">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#BOTB23">
+                          View Video
+                        </button>
+                    </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top img-fluid" alt="Nursing Homes" style="height: 225px; object-fit: contain" src="images/NursingHomes.png" data-holder-rendered="true">
+                  <div class="card-body d-flex flex-column" style="margin-top: 0px;">
+                    <h3>Performing at Nursing Homes</h3>
+                    <p class="card-text flex-grow-1">I perform Jazz from the 50's and 60’s at Nursing Homes 1 hour a week. Sometimes I play classical music. Employed through Westlake Music Academy. </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#NursingHomes">
+                          View
+                        </button> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+<!-- 
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top img-fluid" alt="Scherzo No 2" style="height: 225px; object-fit: contain" src="images/scherzo.png" data-holder-rendered="true">
+                  <div class="card-body d-flex flex-column">
+                    <h3>Scherzo No. 2 by Chopin</h3>
+                    <p class="card-text flex-grow-1">Video of me playing Scherzo No. 2 by Frederic Chopin. </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Scherzo">
+                          View
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                  <img class="card-img-top img-fluid" alt="Bach Video" style="height: 225px; object-fit: contain" src="images/bach.png" data-holder-rendered="true">
+                  <div class="card-body d-flex flex-column">
+                    <h3>Fantasia and Fugue in A minor BWV 904 by Bach</h3>
+                    <p class="card-text flex-grow-1">Video of me playing Fantasia and Fugue in A minor BWV 904 by Bach. </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Bach">
+                          View
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+  
+            </div>
+          </div>
+        </div>
+
+
+
+        
+  
+      </main>
+
+      <div class="modal fade" id="TradeRecon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-custom-size">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Automating Trade Reconciliation</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <!-- Left Column: Image -->
+                <div class="col-12 col-md-8">
+                  <img src="images/snowflake.png" class="img-fluid" alt="Project Image">
+                </div>
+                <!-- Right Column: Text -->
+                <div class="col-12 col-md-4">
+                  <p>Using SQL programming in Snowflake I created efficient data storage for trading reconciliation. Built API calls in an ELT format with Rivery and created a replicating table in Snowflake, which could pull live data reports. I eliminated manual storage of data as well as trade provider validation through this project. </p>
+                  <p>I automated error detection utilizing Snowflake's cloud computing capabilities. I gained skills in SQL, API calling, data manipulation, and digital trading fundamentals.</p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="WhartonDataScience" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-custom-size">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Wharton Data Science Competition</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <!-- Left Column: Image -->
+                <div class="col-12 col-md-8">
+                  <img src="images/wharton-data-science.png" class="img-fluid" alt="Project Image">
+                </div>
+                <!-- Right Column: Text -->
+                <div class="col-12 col-md-4">
+                  <p>Analyzed artificial soccer league data in a team of five. Using RStudio we predicted season outcomes using machine learning models that implement LASSO regression and builds an ELO ranking. Made it to semifinal round. Gained skills in R, machine learning models, and predictive analysis of big data. 
+                    </p>
+                    <p>Methodology</p>
+                    <li>Analysis conducted in R Studio
+                      </li>
+                      <li>Separated factors into Home and Away data </li>
+                    <li>
+                      For each team, combined time of possession averages, penalty kicks in a foul variable, and probability of goals into singular variable
+                    </li>
+                    <li>Plotted each of these against a win ratio and were not statistically significant via a correlation coefficient test
+                      </li>
+                      <li>Home field advantage accounted for in Expected outcome calculation by adding 50 (value assigned arbitrarily)
+                      </li>
+                      <li>
+                        Plot ELO difference against Home Result and when Home win has greatest average differential, equation is optimized
+                      </li>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="CS-Circuitry" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-custom-size">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Circuitry @ Elementary Schools</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <!-- Left Column: Image -->
+                <div class="col-12 col-md-8">
+                  <img src="images/TutoringLR.png" class="img-fluid" alt="Project Image">
+                </div>
+                <!-- Right Column: Text -->
+                <div class="col-12 col-md-4">
+                  <p>Started a program at Lang Ranch Elemntary to teach basic circuitry, how to use chipboards, and their integrations with computers. </p>
+                    <p>Utilized breadboards, LEDs, switches, buttons, motion sensors, adafruit playground circuitboards, and MakeCode Adafruit. </p>
+                    <p>Led and created lessons for robotics and computer science workshops with over 40 elementary and middle school students.</p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="Oxford" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-custom-size">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Oxford Stock Predictions and Risk Assessment</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <!-- Left Column: Image -->
+                <div class="col-12 col-md-8">
+                  <img src="images/MonteCarloSimulations.png" class="img-fluid" alt="Project Image">
+                </div>
+                <!-- Right Column: Text -->
+                <div class="col-12 col-md-4">
+                  <p>Created a model FinTech company called Finantula, a investment banking company that analyzes stock performance and performs risk assessment.</p>
+                  <p>Led programming and data analysis, curating a stock portfolio using mean-variance optimization, the efficient frontier, and Monte Carlo simulations. </p>
+                  <p>Trained models on stock performance data from 5-10 years ago and tested on data from the past 5 years, finding that riskier portfolios generally perform better.</p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="ACSL" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-custom-size">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">ACSL @ CS Club</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <!-- Left Column: Image -->
+                <div class="col-12 col-md-8">
+                  <img src="images/ACSL.png" class="img-fluid" alt="Project Image">
+                </div>
+                <!-- Right Column: Text -->
+                <div class="col-12 col-md-4">
+                  <p>Led ACSL team 2024-2025. Created lessons and worksheets for the team to study. Went over topics such as Bit-String Flicking, LISP, Boolean Algebra, Data Structures, FSAs, and Regular Expressions</p>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="After-the-AP" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-custom-size">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">After-the-AP Data Science Competition</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <!-- Left Column: Image -->
+                <div class="col-12 col-md-8">
+                  <img src="images/AfterTheAP.png" class="img-fluid" alt="Project Image">
+                </div>
+                <!-- Right Column: Text -->
+                <div class="col-12 col-md-4">
+                  <p>Using Jupyter worksheets and Python, analyzed big data on student and college information to predict student loan default rates. </p>
+                  <p>Leveraging data from the U.S. Department of Education’s College Scorecard and IPEDS portals, I filtered, analyzed, modeled, visualized, and communicated complex data on U.S. colleges and universities to conquer the college debt question, maximizing financial return and minimizing the likelihood of defaulting on student loans.</p>
+                  <p>Using multiple inputs, around 5-7, for regression, I found a R2 value around 0.6, placing as a runner-up. </p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
